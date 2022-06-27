@@ -1,3 +1,5 @@
+#![no_std]
+
 pub struct Debouncer {
     state: bool,
     integrator: u8,
